@@ -7,6 +7,7 @@ body {
 @media screen and (max-width: 500px) {
 	#knowledge {
 		height: 40%;
+		width: 100%;
 	}
 }
 
@@ -63,6 +64,7 @@ body {
 
 #main {
 	height: 80%;
+	width: 100%;
 }
 
 .title {
@@ -87,6 +89,7 @@ body {
 
 #projects {
 	height: 100%;
+	width: 100%;
 }
 
 .proj-list {
@@ -115,6 +118,7 @@ a {
 
 #contact {
 	height: 20%;
+	width: 100%;
 }
 
 .links {
@@ -125,6 +129,7 @@ a {
 
 #knowledge {
 	height: 70%;
+	width: 100%;
 }
 
 .desc {
