@@ -4,6 +4,12 @@ body {
 
 }
 
+@media screen and (max-width: 500px) {
+	#knowledge {
+		height: 40%;
+	}
+}
+
 .title-words {
 	margin: 0 auto;
 	text-align: center;
