@@ -62,6 +62,10 @@ body {
   -webkit-transform:rotate(360deg)
 }
 
+.navbar-header a {
+	float: right;
+}
+
 #main {
 	height: 80%;
 	width: 100%;
