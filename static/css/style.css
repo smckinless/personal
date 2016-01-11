@@ -66,6 +66,11 @@ body {
 	float: right;
 }
 
+.navbar-link {
+	height: 100%;
+	padding: 10px;
+}
+
 #main {
 	height: 80%;
 	width: 100%;
