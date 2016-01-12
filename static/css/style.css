@@ -99,6 +99,7 @@ body {
 #projects {
 	height: 100%;
 	width: 100%;
+	padding-top: 70px;
 }
 
 .proj-list {
