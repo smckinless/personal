@@ -121,7 +121,7 @@
         build: function() {
             var self = this;
             // Insert cursor
-            if (this.showCursor === false) {
+            if (this.showCursor === true) {
                 this.cursor = $("<span class=\"typed-cursor\">" + this.cursorChar + "</span>");
                 this.el.after(this.cursor);
             }
@@ -407,15 +407,15 @@
         // shuffle the strings
         shuffle: false,
         // time before backspacing
-        backDelay: 500,
+        backDelay: 1000,
         // loop
-        loop: false,
+        loop: true,
         // false = infinite
         loopCount: false,
         // show cursor
         showCursor: true,
         // character for cursor
-        cursorChar: "_",
+        cursorChar: "__",
         // attribute to type (null == text)
         attr: null,
         // either html or text
