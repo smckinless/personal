@@ -88,6 +88,7 @@ body {
 	background-image: url("/static/img/mountain.jpg");
 	color: white;
 	padding-top: 100px;
+	background-repeat: round;
 }
 
 .title {
