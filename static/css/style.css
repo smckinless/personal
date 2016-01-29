@@ -18,11 +18,13 @@ body {
 	height: 75px;
 }
 
+.title-top {
 	font-size: 70px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Karla', sans-serif;
 	max-width: 75%;
-	margin-top: 15%;
-	margin-bottom: 10%;
+	margin-top: 12%;
+	margin-bottom: 15%;
+	display: inline-block;
 }
 
 .title-words {
@@ -194,22 +196,25 @@ ul {
 	font-size: 1.5em;
 }
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-webkit-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-moz-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
