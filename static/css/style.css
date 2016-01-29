@@ -9,6 +9,45 @@ body {
 		height: 40%;
 		width: 100%;
 	}
+	.title {
+		height: 50%;
+	}
+	td {
+		display: block;
+	}
+
+	table {
+		display: block;
+		overflow-x: auto;
+	}
+
+	.desc {
+		display: initial;
+	}
+
+	#projects {
+		height: 100%;
+	}
+
+	#contact {
+		height: 100%;
+	}
+
+	.proj-list {
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.proj-list-2 {
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+
 }
 
 .title {
@@ -101,7 +140,6 @@ body {
 }
 
 #projects {
-	height: 80%;
 	width: 100%;
 	padding-top: 70px;
 	font-family: "Lato", sans-serif;
@@ -120,14 +158,25 @@ td {
 	padding: 0;
 	text-align: center;
 	margin-top: 2%;
+	display: inline-block;
+	width: 50%;}
+
+.proj-list-2 {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	margin-top: 2%;
+	display: inline-block;
+	width: 50%;
+	float: left;
 }
 
-.proj-list li {
+.proj-list li, .proj-list-2 li {
 	list-style: none;
 	font-size: 2em;
 }
 
-.proj-list img {
+.proj-list img, .proj-list-2 img {
 	max-height: 150px;
 }
 
@@ -166,12 +215,14 @@ a {
 #contact {
 	height: 20%;
 	width: 100%;
+	float: left;
 }
 
 .links {
 	margin: 0 auto;
 	text-align: center;
 	display: block;
+	width: 100%;
 }
 
 #knowledge {
