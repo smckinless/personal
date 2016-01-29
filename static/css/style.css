@@ -47,6 +47,21 @@ body {
 		width: 100%;
 	}
 
+	.title-top {
+		font-size: 60px;
+		width: 100%;
+		display: block;
+		height: 100%;
+	}
+
+	.typed-cursor {
+		display: none;
+	}
+
+	.down-arrow {
+		margin-top: 70%;
+	}
+
 
 }
 
@@ -60,12 +75,9 @@ body {
 }
 
 .title-top {
-	font-size: 70px;
 	font-family: 'Lato', sans-serif;
-	max-width: 75%;
 	margin-top: 12%;
 	margin-bottom: 15%;
-	display: inline-block;
 }
 
 .title-words {
@@ -87,7 +99,6 @@ body {
 	width: 100%;
 	height: 75px;
 	text-align: center;
-	margin-top: 30%;
 }
 
 #triangle {
@@ -157,6 +168,15 @@ td {
 	.proj-list, .proj-list-2 {
 		width: 50%;
 		display: inline-block;
+	}
+	.title-top {
+		max-width: 75%;
+		display: inline-block;
+		font-size: 70px;
+	}
+	
+	.down-arrow {
+		margin-top: 30%;
 	}
 }
 
