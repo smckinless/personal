@@ -4,7 +4,7 @@ body {
 	background: oldlace;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
 	#knowledge {
 		height: 40%;
 		width: 100%;
@@ -153,21 +153,25 @@ td {
 	max-width: 475px;
 }
 
+@media (min-width: 500px) {
+	.proj-list, .proj-list-2 {
+		width: 50%;
+		display: inline-block;
+	}
+}
+
 .proj-list {
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
-	margin-top: 2%;
-	display: inline-block;
-	width: 50%;}
+	margin-top: 2%;}
+
 
 .proj-list-2 {
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 	margin-top: 2%;
-	display: inline-block;
-	width: 50%;
 	float: left;
 }
 
@@ -178,6 +182,7 @@ td {
 
 .proj-list img, .proj-list-2 img {
 	max-height: 150px;
+	max-width: 300px;
 }
 
 a {
