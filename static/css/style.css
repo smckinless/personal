@@ -1,7 +1,7 @@
 body {
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-	background-color: oldlace;
+	font-family: 'Lato', sans-serif;
+	background: oldlace;
 }
 
 @media screen and (max-width: 500px) {
@@ -33,7 +33,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	max-width: 75%;
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -73,7 +73,6 @@ body {
 #main {
 	height: 100%;
 	width: 100%;
-	background-image: url("/static/img/mountain.jpg");
 	color: white;
 	padding-top: 100px;
 	background-repeat: round;
@@ -101,15 +100,25 @@ body {
 }
 
 #projects {
-	height: 100%;
+	height: 80%;
 	width: 100%;
 	padding-top: 70px;
+	font-family: "Lato", sans-serif;
+}
+
+#projects p {
+	font-size: 20px;
+}
+
+td {
+	max-width: 475px;
 }
 
 .proj-list {
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
+	margin-top: 2%;
 }
 
 .proj-list li {
@@ -118,7 +127,7 @@ body {
 }
 
 .proj-list img {
-	max-width: 300px;
+	max-height: 150px;
 }
 
 a {
@@ -168,6 +177,7 @@ a {
 	height: 70%;
 	width: 100%;
 	padding-top: 70px;
+	font-family: "Lato", sans-serif
 }
 
 .desc {
