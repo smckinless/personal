@@ -11,9 +11,13 @@ body {
 	}
 }
 
-.title-top {
+.title {
 	margin: 0 auto;
 	text-align: center;
+	width: 100%;
+	height: 75px;
+}
+
 	font-size: 70px;
 	font-family: 'Montserrat', sans-serif;
 	max-width: 75%;
@@ -36,41 +40,19 @@ body {
 	font-size: 20px;
 }
 
-.arrow-wrap {
-  position:absolute;
-  z-index:1;
-  left:50%;
-  margin-left:-4em;
-  background:#14b3d9;
-  padding:3em 2em;
-  border-radius:50%;
-  font-size:0.5em;
-  display:block;
-  box-shadow:0px 0px 1px 0px #14b3d9;
+.down-arrow {
+	width: 100%;
+	height: 75px;
+	text-align: center;
+	margin-top: 30%;
 }
 
-.arrow {
-  float:left;
-  position:relative;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 2em 2em 0 2em;
-  border-color: black transparent transparent transparent;
-  -webkit-transform:rotate(360deg)
-}
-
-.arrow:after {
-  content:'';
-  position:absolute;
-  top:-3.2em;
-  left:-3em;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 3em 3em 0 3em;
-  border-color: #14b3d9 transparent transparent transparent;
-  -webkit-transform:rotate(360deg)
+#triangle {
+    display: inline-block;
+    border-right: 12px solid; 
+    border-bottom: 12px solid;
+    width: 50px; height: 50px;
+    transform: rotate(45deg);
 }
 
 .navbar-header a {
