@@ -57,6 +57,7 @@ body {
     border-bottom: 5px solid;
     width: 40px; height: 40px;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     color: #0E2430;
     opacity: 0.5;
 }
