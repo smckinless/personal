@@ -184,7 +184,9 @@ td {
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
-	margin-top: 2%;}
+	margin-top: 2%;
+	float: right;
+}
 
 
 .proj-list-2 {
