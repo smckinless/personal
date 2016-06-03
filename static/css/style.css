@@ -203,7 +203,7 @@ td {
 }
 
 .proj-list img, .proj-list-2 img {
-	max-height: 150px;
+	height: 150px;
 	max-width: 300px;
 }
 
