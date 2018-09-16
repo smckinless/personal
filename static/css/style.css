@@ -33,14 +33,7 @@ body {
 		height: 100%;
 	}
 
-	.proj-list {
-		display: block;
-		margin-left: 0;
-		margin-right: 0;
-		width: 100%;
-	}
-
-	.proj-list-2 {
+	.proj-list, .proj-list-2, .proj-list-center {
 		display: block;
 		margin-left: 0;
 		margin-right: 0;
@@ -165,7 +158,7 @@ td {
 }
 
 @media (min-width: 500px) {
-	.proj-list, .proj-list-2 {
+	.proj-list, .proj-list-2, .proj-list-center {
 		width: 50%;
 		display: inline-block;
 	}
@@ -204,12 +197,12 @@ td {
 	margin-top: 2%;
 }
 
-.proj-list li, .proj-list-2 li {
+.proj-list li, .proj-list-2 li, .proj-list-center li {
 	list-style: none;
 	font-size: 2em;
 }
 
-.proj-list img, .proj-list-2 img {
+.proj-list img, .proj-list-2 img, proj-list-center li {
 	height: 150px;
 	max-width: 300px;
 }
