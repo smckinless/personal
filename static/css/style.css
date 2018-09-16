@@ -195,6 +195,7 @@ td {
 	padding: 0;
 	text-align: center;
 	margin-top: 2%;
+	display: table;
 }
 
 .proj-list li, .proj-list-2 li, .proj-list-center li {
@@ -253,7 +254,7 @@ a {
 }
 
 #knowledge {
-	height: 70%;
+	height: 75%;
 	width: 100%;
 	padding-top: 70px;
 	font-family: "Lato", sans-serif
