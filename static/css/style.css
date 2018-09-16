@@ -197,6 +197,13 @@ td {
 	float: left;
 }
 
+.proj-list-center {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	margin-top: 2%;
+}
+
 .proj-list li, .proj-list-2 li {
 	list-style: none;
 	font-size: 2em;
